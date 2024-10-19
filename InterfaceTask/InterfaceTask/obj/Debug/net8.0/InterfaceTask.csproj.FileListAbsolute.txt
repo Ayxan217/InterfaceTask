@@ -1,0 +1,14 @@
+C:\Users\pc\source\repos\InterfaceTask\InterfaceTask\bin\Debug\net8.0\InterfaceTask.exe
+C:\Users\pc\source\repos\InterfaceTask\InterfaceTask\bin\Debug\net8.0\InterfaceTask.deps.json
+C:\Users\pc\source\repos\InterfaceTask\InterfaceTask\bin\Debug\net8.0\InterfaceTask.runtimeconfig.json
+C:\Users\pc\source\repos\InterfaceTask\InterfaceTask\bin\Debug\net8.0\InterfaceTask.dll
+C:\Users\pc\source\repos\InterfaceTask\InterfaceTask\bin\Debug\net8.0\InterfaceTask.pdb
+C:\Users\pc\source\repos\InterfaceTask\InterfaceTask\obj\Debug\net8.0\InterfaceTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\source\repos\InterfaceTask\InterfaceTask\obj\Debug\net8.0\InterfaceTask.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\InterfaceTask\InterfaceTask\obj\Debug\net8.0\InterfaceTask.AssemblyInfo.cs
+C:\Users\pc\source\repos\InterfaceTask\InterfaceTask\obj\Debug\net8.0\InterfaceTask.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\InterfaceTask\InterfaceTask\obj\Debug\net8.0\InterfaceTask.dll
+C:\Users\pc\source\repos\InterfaceTask\InterfaceTask\obj\Debug\net8.0\refint\InterfaceTask.dll
+C:\Users\pc\source\repos\InterfaceTask\InterfaceTask\obj\Debug\net8.0\InterfaceTask.pdb
+C:\Users\pc\source\repos\InterfaceTask\InterfaceTask\obj\Debug\net8.0\InterfaceTask.genruntimeconfig.cache
+C:\Users\pc\source\repos\InterfaceTask\InterfaceTask\obj\Debug\net8.0\ref\InterfaceTask.dll
