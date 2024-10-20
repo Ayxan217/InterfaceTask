@@ -9,21 +9,30 @@ namespace InterfaceTask
 
 
             Student student = new("Ayxan", "Mammadli");
-            Student student2 = new("Ayxan", "Mammadli");
-            Student student3 = new("Ayxan", "Mammadli");
-            Student student4 = new("Ayxan", "Mammadli");
-            Student student5 = new("Ayxan", "Mammadli");
-            Student student6 = new("Ayxan", "Mammadli");
-            Student student7 = new("Ayxan", "Mammadli");
+            Student student2 = new("nicat", "quliyev");
+            Student student3 = new("emin", "memmedov");
+            Student student4 = new("vusal", "agazade");
+            Student student5 = new("gence", "mehreliyev");
+         
             
 
             Group group = new("Bp-217");
-            group.AddStudent("ayxan memmedli");
-            group.AddStudent("ayx memmed");
-            group.RemoveStudent("ayx memmed");
+            Group group2 = new("Fe-25");
+            Group group3 = new("Fe-2515");
+            Group.AddGroup(group);
+            Group.AddGroup(group2);
+            Group.AddGroup(group3);
+            Group.RemoveGroup(3);
 
-
+            Group.ShowAllGroups();
+            group.AddStudent(student);
+            group.AddStudent(student5);
+            group.AddStudent(student4);
+            group.RemoveStudent(2);
+            group.ShowStudents();
             group.GetGroupInfo();
+
+
 
 
 

@@ -64,5 +64,7 @@ namespace InterfaceTask.Models
             CodeEmail = String.Concat(Name, ".", Surname, Id).ToLower() + domain;
             return CodeEmail;
         }
+
+       
     }
 }
