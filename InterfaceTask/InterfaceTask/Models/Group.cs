@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
@@ -47,9 +48,33 @@ namespace InterfaceTask.Models
 
             
         }
-        public void GetId()
+       
+        public void RemoveStudent(string student)
         {
-            Console.WriteLine(StudentId);
+            int index = 0;
+            string[] arr = new string[Students.Length-1];
+            for(int i = 0; i < Students.Length; i++)
+            {
+               if(student == Students[i])
+                {
+                    if (index < arr.Length)  
+                    {
+                        arr[index] = Students[i];
+                        index++;
+
+                    }
+                }
+            }
+            if (index == arr.Length)
+            {
+                Students = arr;
+                Console.WriteLine($"Student {student} removed.");
+                StudentCount--;
+            }
+            else
+            {
+                Console.WriteLine($"Student {student} not found");
+            }
         }
        
     }
