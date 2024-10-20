@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\InterfaceTask\\InterfaceTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED0DFE8A-2157-4B8D-B862-F25F96906299}|InterfaceTask\\InterfaceTask.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\interfacetask\\interfacetask\\interfacetask\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED0DFE8A-2157-4B8D-B862-F25F96906299}|InterfaceTask\\InterfaceTask.csproj|solutionrelative:interfacetask\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ED0DFE8A-2157-4B8D-B862-F25F96906299}|InterfaceTask\\InterfaceTask.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\interfacetask\\interfacetask\\interfacetask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED0DFE8A-2157-4B8D-B862-F25F96906299}|InterfaceTask\\InterfaceTask.csproj|solutionrelative:interfacetask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0DFE8A-2157-4B8D-B862-F25F96906299}|InterfaceTask\\InterfaceTask.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\interfacetask\\interfacetask\\interfacetask\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED0DFE8A-2157-4B8D-B862-F25F96906299}|InterfaceTask\\InterfaceTask.csproj|solutionrelative:interfacetask\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED0DFE8A-2157-4B8D-B862-F25F96906299}|InterfaceTask\\InterfaceTask.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\interfacetask\\interfacetask\\interfacetask\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,13 +34,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Group.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\InterfaceTask\\InterfaceTask\\InterfaceTask\\Models\\Group.cs",
               "RelativeDocumentMoniker": "InterfaceTask\\Models\\Group.cs",
               "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\InterfaceTask\\InterfaceTask\\InterfaceTask\\Models\\Group.cs",
               "RelativeToolTip": "InterfaceTask\\Models\\Group.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T20:27:12.903Z",
               "EditorCaption": ""
@@ -55,7 +55,8 @@
               "RelativeToolTip": "InterfaceTask\\Interfaces\\ICodeAcademy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T19:18:02.093Z"
+              "WhenOpened": "2024-10-19T19:18:02.093Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -65,21 +66,23 @@
               "RelativeDocumentMoniker": "InterfaceTask\\Models\\Student.cs",
               "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\InterfaceTask\\InterfaceTask\\InterfaceTask\\Models\\Student.cs",
               "RelativeToolTip": "InterfaceTask\\Models\\Student.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAA6wEQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAywAoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T18:07:16.901Z"
+              "WhenOpened": "2024-10-19T18:07:16.901Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\InterfaceTask\\InterfaceTask\\InterfaceTask\\Program.cs",
               "RelativeDocumentMoniker": "InterfaceTask\\Program.cs",
               "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\InterfaceTask\\InterfaceTask\\InterfaceTask\\Program.cs",
               "RelativeToolTip": "InterfaceTask\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T18:05:43.429Z"
+              "WhenOpened": "2024-10-19T18:05:43.429Z",
+              "EditorCaption": ""
             }
           ]
         }
