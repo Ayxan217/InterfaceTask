@@ -23,7 +23,7 @@ namespace InterfaceTask
             Group.AddGroup(group);
             Group.AddGroup(group2);
             Group.AddGroup(group3);
-            Group.RemoveGroup(2);
+            Group.RemoveGroup(3);
 
 
             Group.ShowAllGroups();
@@ -34,10 +34,11 @@ namespace InterfaceTask
             group.AddStudent(student);
             group.AddStudent(student2);
             group.AddStudent(student3);
-            group.RemoveStudent(2);
+            group.RemoveStudent(3);
             group.ShowStudents();
             group.GetGroupInfo();
             group2.GetGroupInfo();
+            
             
 
 
