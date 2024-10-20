@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using static System.Reflection.Metadata.BlobBuilder;
 
 namespace InterfaceTask.Models
 {
@@ -21,8 +23,9 @@ namespace InterfaceTask.Models
 
         public Group(string groupName)
         {
-
-            GroupId = ++GroupCount;
+            
+            GroupCount++;
+            GroupId = GroupCount;
             GroupName = groupName;
 
 
@@ -50,30 +53,27 @@ namespace InterfaceTask.Models
 
         public void RemoveStudent(int id)
         {
-            int index = 0;
-            Student[] arr = new Student[Students.Length - 1];
+            int j = 0;
+            Student[] newArr = new Student[Students.Length - 1];
+            
             for (int i = 0; i < Students.Length; i++)
             {
-                if (id == i)
+               
+                if (i != id)
                 {
-                    if (index < arr.Length)
+                    if (j < newArr.Length)
                     {
-                        arr[index] = Students[i];
-                        index++;
+                        newArr[j] = Students[i];
+                        j++;
 
                     }
                 }
+               
+
+
             }
-            if (index == arr.Length)
-            {
-                Students = arr;
-                Console.WriteLine($" {id} th Student removed.");
-                StudentCount--;
-            }
-            else
-            {
-                Console.WriteLine($"Student not found");
-            }
+            Students = newArr;
+            StudentCount--;
         }
         public void ShowStudents()
         {
@@ -85,7 +85,7 @@ namespace InterfaceTask.Models
         public static void AddGroup(Group groupName)
         {
             Array.Resize(ref Groups, Groups.Length + 1);
-            GroupId = ++GroupCount;
+            
             Groups[Groups.Length - 1] = groupName;
             Console.WriteLine(" new group added");
         }
@@ -99,33 +99,32 @@ namespace InterfaceTask.Models
         }
         public static void RemoveGroup(int groupId)
         {
-            int index = 0;
-            Group[] arr = new Group[Groups.Length - 1];
-            for (int i = 0; i < Groups.Length; i++)
             {
-                if (groupId == i)
-                {
-                    if (index < arr.Length)
-                    {
-                        arr[index] = Groups[i];
-                        index++;
+               
+                int j = 0;
+                Group[] newArr = new Group[Groups.Length - 1];
 
+                for (int i = 0; i < Groups.Length; i++)
+                {
+                
+                    if (i != groupId)
+                    {
+                        if (j < newArr.Length)
+                        {
+                            newArr[j] = Groups[i];
+                            j++;
+                        }
                     }
                 }
-            }
-            if (index == arr.Length)
-            {
-                Groups = arr;
-                Console.WriteLine($" {groupId} th Student removed.");
+               
+
+                Groups = newArr;
                 GroupCount--;
             }
-            else
-            {
-                Console.WriteLine($"Group not found");
-            }
+
 
         }
 
-      
+
     }
 }

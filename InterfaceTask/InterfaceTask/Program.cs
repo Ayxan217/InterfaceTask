@@ -22,13 +22,13 @@ namespace InterfaceTask
             Group.AddGroup(group);
             Group.AddGroup(group2);
             Group.AddGroup(group3);
-            Group.RemoveGroup(3);
+            Group.RemoveGroup(1);
 
             Group.ShowAllGroups();
             group.AddStudent(student);
             group.AddStudent(student5);
             group.AddStudent(student4);
-            group.RemoveStudent(2);
+            group.RemoveStudent(1);
             group.ShowStudents();
             group.GetGroupInfo();
 
