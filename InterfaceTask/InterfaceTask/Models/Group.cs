@@ -23,21 +23,16 @@ namespace InterfaceTask.Models
 
         public Group(string groupName)
         {
-            
             GroupCount++;
             GroupId = GroupCount;
             GroupName = groupName;
-
-
-
-
 
         }
 
 
         public void AddStudent(Student student)
         {
-
+         
             Array.Resize(ref Students, Students.Length + 1);
             Students[Students.Length - 1] = student;
             StudentCount++;
@@ -77,8 +72,10 @@ namespace InterfaceTask.Models
         }
         public void ShowStudents()
         {
+            
             for (int i = 0; i < Students.Length; i++)
             {
+                
                 Console.WriteLine(Students[i].Name + " "+ Students[i].Surname);
             }
         }
@@ -115,6 +112,8 @@ namespace InterfaceTask.Models
                             j++;
                         }
                     }
+                   
+
                 }
                
 

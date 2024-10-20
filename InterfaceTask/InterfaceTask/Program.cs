@@ -13,8 +13,9 @@ namespace InterfaceTask
             Student student3 = new("emin", "memmedov");
             Student student4 = new("vusal", "agazade");
             Student student5 = new("gence", "mehreliyev");
-         
-            
+            Student student6 = new("merazeli", "penahov");
+
+
 
             Group group = new("Bp-217");
             Group group2 = new("Fe-25");
@@ -22,16 +23,21 @@ namespace InterfaceTask
             Group.AddGroup(group);
             Group.AddGroup(group2);
             Group.AddGroup(group3);
-            Group.RemoveGroup(1);
+            Group.RemoveGroup(2);
+
 
             Group.ShowAllGroups();
+            group2.AddStudent(student4);
+            group2.AddStudent(student5);
+            group2.AddStudent(student6);
+            group2.ShowStudents();
             group.AddStudent(student);
-            group.AddStudent(student5);
-            group.AddStudent(student4);
-            group.RemoveStudent(1);
+            group.AddStudent(student2);
+            group.AddStudent(student3);
+            group.RemoveStudent(2);
             group.ShowStudents();
             group.GetGroupInfo();
-
+            
 
 
 
