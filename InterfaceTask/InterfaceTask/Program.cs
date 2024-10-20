@@ -15,7 +15,7 @@ namespace InterfaceTask
             Student student5 = new("gence", "mehreliyev");
             Student student6 = new("merazeli", "penahov");
 
-
+            Student.Captalize("aYXan","mEmmedLi");
 
             Group group = new("Bp-217");
             Group group2 = new("Fe-25");
@@ -37,6 +37,7 @@ namespace InterfaceTask
             group.RemoveStudent(2);
             group.ShowStudents();
             group.GetGroupInfo();
+            group2.GetGroupInfo();
             
 
 
